@@ -1,11 +1,12 @@
 // Componente Producto
 
 import React from 'react'
+import './Product.css'
 
 function Product(props) {
   const { name, image, price } = props
   return (
-    <div>
+    <div class="product">
       <img
         src={`${process.env.PUBLIC_URL}images/${image}`}
         width="300"
