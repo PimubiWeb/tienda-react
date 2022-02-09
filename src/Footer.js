@@ -1,14 +1,14 @@
 // Componente Footer
 
 import React from 'react'
-import './Title.css'
+import './Footer.css'
 
 function Footer() {
   
   return (
-    <div className="Title">
-      <footer>Este es mi footer simple 2022</footer>
-    </div>
+
+      <footer className='Footer'>Este es mi footer simple 2022</footer>
+    
   )
 }
 

@@ -6,7 +6,7 @@ import './Product.css'
 function Product(props) {
   const { name, image, price } = props
   return (
-    <div class="product">
+    <div className="product">
       <img
         src={`${process.env.PUBLIC_URL}images/${image}`}
         width="300"
