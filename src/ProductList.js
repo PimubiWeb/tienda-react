@@ -2,10 +2,11 @@
 
 import React from 'react';
 import Product from './Product';
+import './ProductList.css'
 
 function ProductList() {
   return (
-    <div>
+    <div className='productlist'>
       <Product 
         name="Nike Air"
         price="67€"
@@ -21,6 +22,26 @@ function ProductList() {
         price="55€"
         image="producto3.png">
         </Product>
+        <Product 
+        name="Nike Air"
+        price="67€"
+        image="producto1.png"
+      ></Product>
+      <Product 
+        name="Nike Air"
+        price="67€"
+        image="producto1.png"
+      ></Product>
+      <Product 
+        name="Nike Air"
+        price="67€"
+        image="producto1.png"
+      ></Product>
+      <Product 
+        name="Nike Air"
+        price="67€"
+        image="producto1.png"
+      ></Product>
       
     </div>
   )
