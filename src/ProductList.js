@@ -3,45 +3,27 @@
 import React from 'react';
 import Product from './Product';
 import './ProductList.css'
+import data from './miJSON'
+
+
 
 function ProductList() {
+
+  const productos = data.map((obj) => {
+    return (
+      <Product 
+        key={obj.id}
+        name={obj.title}
+        price={obj.price}
+        image={obj.images[0]}
+      />
+    )
+  })  
+
   return (
     <div className='productlist'>
-      <Product 
-        name="Nike Air"
-        price="67€"
-        image="producto1.png"
-      ></Product>
-      <Product 
-        name="Colorful Nike's"
-        price="120€"
-        image="producto2.png"
-      ></Product>
-      <Product
-        name="Anothers Nike"
-        price="55€"
-        image="producto3.png">
-        </Product>
-        <Product 
-        name="Nike Air"
-        price="67€"
-        image="producto1.png"
-      ></Product>
-      <Product 
-        name="Nike Air"
-        price="67€"
-        image="producto1.png"
-      ></Product>
-      <Product 
-        name="Nike Air"
-        price="67€"
-        image="producto1.png"
-      ></Product>
-      <Product 
-        name="Nike Air"
-        price="67€"
-        image="producto1.png"
-      ></Product>
+
+      {productos}
       
     </div>
   )
