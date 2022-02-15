@@ -3,7 +3,7 @@
 import React from 'react';
 import Product from './Product';
 import './ProductList.css'
-import data from './miJSON'
+import data from '../miJSON'
 
 
 

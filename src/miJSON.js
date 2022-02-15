@@ -12,6 +12,22 @@ const data = [
        "title":"Anothers Nike",
        "desc":"anothers nike but its not the usual nike, its random nike",
        "price":250,
+       "images":["producto2.png"],
+       "stock": 222
+    },
+    {
+        "id": 3,
+       "title":"Anothers Nike",
+       "desc":"anothers nike but its not the usual nike, its random nike",
+       "price":115,
+       "images":["producto3.png"],
+       "stock": 222
+    },
+    {
+        "id": 4,
+       "title":"Anothers Nike",
+       "desc":"anothers nike but its not the usual nike, its random nike",
+       "price":250,
        "images":["producto3.png"],
        "stock": 222
     }
