@@ -4,6 +4,10 @@ function About() {
   return (
     <div>
       <h1>About Pimubi</h1>
+      <h2>Lorem</h2>
+      <h2>Lorem</h2>
+      <h2>Lorem</h2>
+      <h2>Lorem</h2>
       <p>POPOS are publicly accessible spaces in
         forms of plazas, terraces, atriums, small
         parks, and even snippets which are provided

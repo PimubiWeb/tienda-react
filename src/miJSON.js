@@ -1,6 +1,6 @@
 const data = [
     {
-        "id":1,
+        "id":0,
        "title":"Nike Air",
        "desc":"The best nike air that u can buy",
        "price":120,
@@ -8,7 +8,7 @@ const data = [
        "stock": 999
     },
     {
-        "id": 2,
+        "id": 1,
        "title":"Anothers Nike",
        "desc":"anothers nike but its not the usual nike, its random nike",
        "price":250,
@@ -16,7 +16,7 @@ const data = [
        "stock": 222
     },
     {
-        "id": 3,
+        "id": 2,
        "title":"Anothers Nike",
        "desc":"anothers nike but its not the usual nike, its random nike",
        "price":115,
@@ -24,7 +24,7 @@ const data = [
        "stock": 222
     },
     {
-        "id": 4,
+        "id": 3,
        "title":"Anothers Nike",
        "desc":"anothers nike but its not the usual nike, its random nike",
        "price":250,

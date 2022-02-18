@@ -7,7 +7,7 @@ function Footer() {
   
   return (
 
-      <footer className='Footer'>Este es mi footer simple 2022</footer>
+    <footer className='Footer'>Este es mi footer simple 2022</footer>
     
   )
 }

@@ -5,14 +5,14 @@ import Product from './Product';
 import './ProductList.css'
 import data from '../miJSON'
 
-
-
 function ProductList() {
+
 
   const productos = data.map((obj) => {
     return (
       <Product 
         key={obj.id}
+        id={obj.id}
         name={obj.title}
         price={obj.price}
         image={obj.images[0]}
@@ -24,6 +24,7 @@ function ProductList() {
     <div className='productlist'>
 
       {productos}
+      
       
     </div>
   )
