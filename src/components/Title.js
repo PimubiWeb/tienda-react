@@ -12,8 +12,8 @@ function Title() {
         <div className="Title-Subtitle">E-comerce made with React</div>
 
         <div>
-          <Link  className='nav-link'  activeClassName="nav-link-active" to="/">Inicio</Link>
-          <Link className='nav-link'  activeClassName="nav-link-active" to="/About">About</Link>
+          <Link  className='nav-link'   to="/">Inicio</Link>
+          <Link className='nav-link'  to="/About">About</Link>
           
         </div>
       </header>

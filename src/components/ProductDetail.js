@@ -5,11 +5,14 @@ import { useParams } from 'react-router-dom'
 
 
 
-function POPOSDetails(props) {
-  const { id } = useParams.id() // Location index
+function ProductDetail(props) {
+  const  id  = useParams().id // Location index
 
+  if(!props.list.length){
+    return(<div></div>);
+  }
   const p = props.list[id]
-  console.log(p)
+  console.log(props.list);
 
   return (
     <div>
@@ -24,9 +27,9 @@ function POPOSDetails(props) {
         <p>{ p.price }</p>
        
       </div>
-
+      <button onClick={()=> props.anadir(id)}>Add to cart</button>
     </div>
   )
 }
 
-export default POPOSDetails
+export default ProductDetail

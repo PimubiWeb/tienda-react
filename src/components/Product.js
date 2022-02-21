@@ -18,9 +18,11 @@ function Product(props) {
       />
       <h1>{name}</h1>
       <div>Price: {price}</div>
-      <button onClick={() => props.id }>Add to cart</button>
+      
     </div>
     </Link>
+    
+   
   )
 }
 

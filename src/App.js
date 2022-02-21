@@ -4,7 +4,7 @@ import Title from './components/Title';
 import ProductList from './components/ProductList';
 import Footer from './components/Footer';
 import About from './components/About';
-import POPOSDetails from './components/ProductDetails';
+import ProductDetail from './components/ProductDetail';
 
 
 import {
@@ -26,7 +26,18 @@ export class App extends Component{
       this.state = {
         data: [], carrito: []
       }
+      
     }
+  }
+
+  anadirCarrito(id){
+    let aux = this.state.carrito;
+    aux.push(this.state.data[id]);
+
+    this.setState({carrito: aux});
+
+    localStorage.setItem('carrito', this.state.carrito);
+
   }
 
   render() {
@@ -38,7 +49,7 @@ export class App extends Component{
           <Routes>
           <Route exact path="/" element={<ProductList />} />
           <Route path='/About' element= {< About />} />
-          <Route path="/detail/:id" element={< POPOSDetails list={this.state.data} />} />
+          <Route path="/detail/:id" element={< ProductDetail anadir={(id)=> this.anadirCarrito(id)} list={this.state.data} />} />
           </Routes>
           <Footer/>
         </BrowserRouter>
