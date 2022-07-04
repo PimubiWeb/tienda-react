@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PimubiWeb/tienda-camisetas/static/css/main.1cbc2d9e.css",
-    "main.js": "/PimubiWeb/tienda-camisetas/static/js/main.a495d6bf.js",
-    "static/js/787.d1c33105.chunk.js": "/PimubiWeb/tienda-camisetas/static/js/787.d1c33105.chunk.js",
-    "index.html": "/PimubiWeb/tienda-camisetas/index.html",
-    "main.1cbc2d9e.css.map": "/PimubiWeb/tienda-camisetas/static/css/main.1cbc2d9e.css.map",
-    "main.a495d6bf.js.map": "/PimubiWeb/tienda-camisetas/static/js/main.a495d6bf.js.map",
-    "787.d1c33105.chunk.js.map": "/PimubiWeb/tienda-camisetas/static/js/787.d1c33105.chunk.js.map"
+    "main.css": "/PimubiWeb/tienda-react/static/css/main.1cbc2d9e.css",
+    "main.js": "/PimubiWeb/tienda-react/static/js/main.9b612f79.js",
+    "static/js/787.d1c33105.chunk.js": "/PimubiWeb/tienda-react/static/js/787.d1c33105.chunk.js",
+    "index.html": "/PimubiWeb/tienda-react/index.html",
+    "main.1cbc2d9e.css.map": "/PimubiWeb/tienda-react/static/css/main.1cbc2d9e.css.map",
+    "main.9b612f79.js.map": "/PimubiWeb/tienda-react/static/js/main.9b612f79.js.map",
+    "787.d1c33105.chunk.js.map": "/PimubiWeb/tienda-react/static/js/787.d1c33105.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cbc2d9e.css",
-    "static/js/main.a495d6bf.js"
+    "static/js/main.9b612f79.js"
   ]
 }
